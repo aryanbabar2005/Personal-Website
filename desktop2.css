@@ -1,0 +1,185 @@
+.vision1 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .vision-container {
+    width: 339px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 70px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .image1-1-icon {
+    height: 822px;
+    flex: 1;
+    position: relative;
+    border-radius: 80px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .image1-1-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-6xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .vision-statement {
+    margin: 0;
+    width: 327px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-div,
+  .frame-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-div {
+    align-self: stretch;
+    gap: var(--gap-lg);
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-pacifico);
+  }
+  .frame-section {
+    width: 1010px;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    gap: 12px;
+    text-align: left;
+    font-size: 64px;
+    color: var(--color-white);
+    font-family: var(--font-great-vibes);
+  }
+  .in-an-increasingly {
+    margin: 0;
+  }
+  .in-an-increasingly-container {
+    width: 1358px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-right: var(--padding-xl);
+  }
+  .future-goals {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .future-goals-wrapper {
+    width: 282px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 31px 0;
+    box-sizing: border-box;
+  }
+  .skill-development-continue {
+    margin-bottom: 0;
+  }
+  .skill-development-continue-to {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-13xl);
+  }
+  .my-journey-is-container {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .desktop-3,
+  .my-journey-is-one-of-continuou-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    color: var(--color-white);
+  }
+  .my-journey-is-one-of-continuou-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 21px;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-poppins);
+  }
+  .desktop-3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-midnightblue);
+    overflow: hidden;
+    flex-direction: column;
+    padding: 65px 0 27px 66px;
+    gap: var(--gap-17xl);
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-pacifico);
+  }
+  @media screen and (max-width: 750px) {
+    .vision1 {
+      font-size: 51px;
+    }
+    .future-goals,
+    .vision-statement {
+      font-size: var(--font-size-13xl);
+    }
+    .desktop-3 {
+      gap: var(--gap-lg);
+      padding-left: 33px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .vision1 {
+      font-size: var(--font-size-19xl);
+    }
+    .vision-container {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .vision-statement {
+      font-size: var(--font-size-5xl);
+    }
+    .in-an-increasingly-container {
+      font-size: var(--font-size-lgi);
+    }
+    .future-goals {
+      font-size: var(--font-size-5xl);
+    }
+    .my-journey-is-container {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  
